@@ -1,0 +1,50 @@
+.header {
+  border-bottom: 1px solid #282c34;
+  height: 48px;
+  line-height: 48px;
+  margin-bottom: 20px;
+  padding: 0 16px;
+}
+.header strong {
+  font-size: 20px;
+}
+
+.cell {
+  border: 1px solid #e5e7eb;
+  flex: 0 0 auto;
+  font-size: 24px;
+  font-weight: bolder;
+  height: 48px;
+  margin: 2px;
+  width: 48px;
+}
+
+.key {
+  height: 58px;
+  margin: 2px;
+  min-width: 40px;
+  padding: 0 10px;
+  width: auto;
+}
+.key.big {
+  width: 64px;
+}
+
+.status3 {
+  background-color: #16a34a;
+  color: #fff;
+}
+.status2 {
+  background-color: rgb(234, 179, 8);
+  color: #fff;
+}
+.status1 {
+  background-color: rgb(148, 163, 184);
+  color: #fff;
+}
+
+.fixed-bottom {
+  bottom: 0;
+  padding: 20px;
+  position: fixed;
+}
