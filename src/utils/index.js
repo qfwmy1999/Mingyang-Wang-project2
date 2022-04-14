@@ -1,4 +1,3 @@
-// 0-可选 1-不在单词中 2-在单词中但不在正确的位置 3-在单词中且在正确的位置
 export const getStatus = (guess, solution) => {
     const status = {}
     guess.filter(Boolean).forEach((key, i) => {
